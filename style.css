@@ -15,6 +15,55 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    border-radius: 10px;
+    border-radius: 15px;
+    padding: 10px;
     background-color: #170f0f;
+}
+
+table td {
+    display: inline-block;
+}
+
+.btn{
+    margin: 3px;
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    background-color: #510A32;
+    color: #ffff;
+    font-size: 16px;
+    transition: all 500ms ease-in-out;
+}
+
+.btn:hover {
+    background-color: #510A49;
+}
+
+.ac{
+    background-color: #c72c41;
+}
+
+.ac:hover{
+    background-color: #c72c59;
+}
+
+.function{
+    background-color: #801336;
+}
+
+.function:hover{
+    background-color: #801449;
+}
+
+.equal{
+    background-color: #c72c41
+}
+
+.equal:hover{
+    background-color: #c72c59;
+}
+
+.screen {
+    height: 100px;
 }
