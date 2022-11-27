@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'bahnschrift','cursive' ,sans-serif;
+}
+
+body {
+    background-color: #c72c41;
+}
+
+.calculator{
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    background-color: #170f0f;
+}
