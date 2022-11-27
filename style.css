@@ -65,5 +65,12 @@ table td {
 }
 
 .screen {
-    height: 100px;
+    height: 90px;
+    background-color: #2F2525;
+    color: #ffff;
+    text-align: right;
+    font-size: 35px;
+    word-wrap: break-word;
+    border-bottom: 1px solid #ee4540;
+
 }
